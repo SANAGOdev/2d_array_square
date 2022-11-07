@@ -11,9 +11,9 @@ int main(void)
 {
     int lines = 0, columns = 0;
 
-    printf("Entrez un nombre de lignes : ");
+    printf("Enter a lines number : ");
     scanf("%d", &lines);
-    printf("Entrez un nombre de colonnes : ");
+    printf("Enter a columns number : ");
     scanf("%d", &columns);
     area(lines, columns);
 
