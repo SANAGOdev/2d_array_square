@@ -9,6 +9,7 @@
 #define DISPLAY_AREA_
 
 #include <stdio.h>
+#include <stdlib.h>
 
 void area(int lines, int columns);
 
