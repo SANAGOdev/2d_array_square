@@ -13,7 +13,7 @@ void area(int lines, int columns)
 
     int i = 0, j = 0;
 
-    for (i = 0; i < columns; i++) {
+    for (i = 0; i < lines; i++) {
         for (j = 0; j < columns + 1; j++) {
 
             if (i == 0 || i == lines - 1 || j == 0 || j == columns - 1) {
