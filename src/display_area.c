@@ -23,7 +23,6 @@ void area(int lines, int columns)
             else {
                 tab[i][j] = ' ';
             }
-
             tab[i][columns] = '\n';
             printf("%c", tab[i][j]);
         }

@@ -12,5 +12,6 @@
 #include <stdlib.h>
 
 void area(int lines, int columns);
+void start(void);
 
 #endif /* !DISPLAY_AREA_ */
